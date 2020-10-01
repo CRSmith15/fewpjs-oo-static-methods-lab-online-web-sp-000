@@ -5,6 +5,6 @@ class Formatter {
   }
 
   static sanitize(string){
-    return string.replace(/[^\sA-Za=z0-9-']+/g, '');
+    return string.replace(/[^\sA-Za=z0-9-']+/g, '', " ");
   }
 }
