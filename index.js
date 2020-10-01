@@ -5,6 +5,6 @@ class Formatter {
   }
 
   static sanitize(string){
-    return string.replace(/[&\/\\#,+()$~%.":*?<>{}]/g, '');
+    return string.replace(/[&\/\\#,+()$~%.":*?<>{}!]/g, '');
   }
 }
